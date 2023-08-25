@@ -26,4 +26,8 @@ $ cd frontend
 # Then start the server
 $ npm start
 
+#You can now view app in the browser.
+
+$ http://localhost:3000
+
 ```
