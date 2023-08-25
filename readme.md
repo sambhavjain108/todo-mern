@@ -14,13 +14,13 @@ $ cd frontend
 # Then Install dependencies
 $ npm install
 
-# To start the server change the directory to backend
+# To start the server backend change the directory to backend
 $ cd backend
 
 # Then start the server
 $ npm start
 
-# To start the server change the directory to frontend
+# To start the frontend server change the directory to frontend
 $ cd frontend
 
 # Then start the server
