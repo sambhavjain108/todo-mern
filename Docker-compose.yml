@@ -33,6 +33,6 @@ services:
     expose:
     - 27017
     volumes:
-    - -/data:/data/db
+    - ./data:/data/db
     restart: always
   
