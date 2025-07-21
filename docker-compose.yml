@@ -23,7 +23,7 @@ services:
     - ./backend:/myapp
     - /myapp/node_modules
     expose:
-    - 3000
+    - 3000:3000
     depends_on:
     - mongo
     restart: always
@@ -31,7 +31,7 @@ services:
   mongo:
     image: mongo:latest
     expose:
-    - 27017
+    - 27017:27017
     volumes:
     - ./data:/data/db
     restart: always
