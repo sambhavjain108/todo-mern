@@ -23,7 +23,7 @@ services:
     - ./backend:/myapp
     - /myapp/node_modules
     expose:
-    - 3000:3000
+    - 3000
     depends_on:
     - mongo
     restart: always
